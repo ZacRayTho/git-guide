@@ -4,7 +4,44 @@ html {
     list-style-position: inside;
     flex: auto;
 }
-aside {
-    width: 30%;
+
+img:hover {
+    width: 27%;
 }
 
+h1, h2, h3 {
+    color: rebeccapurple;
+    border-bottom: 10px dotted;
+    max-width: 610px;
+
+}
+aside {
+    width: 40%;
+    float: right;
+    font-size: 80%
+}
+
+.super {
+    color: salmon;
+    transform: rotate(-.005turn);
+}
+
+span {
+    color: red;
+}
+
+dd > span {
+    color: seagreen;
+}
+
+#woah {
+    text-decoration: line-through;
+}
+
+ul {
+    border-style: groove;
+    border-color: aquamarine;
+    border-radius: 2em;
+    max-width: 627px;
+}
+/* comment */
